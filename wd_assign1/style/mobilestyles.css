@@ -1,0 +1,170 @@
+/* Styles for mobile devices */
+/* Set the font family and size for the entire page */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  /* Set the background color and text color */
+  background-color: #112c38;
+  color: #ccc;
+  margin: 0;
+}
+
+/* Style for h1 heading */
+h1 {
+  font-size: 36px;
+  margin-top: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Style for h2 heading */
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Style for paragraph */
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style for table */
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style for table header and table data */
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Style for image */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style for navigation bar */
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Style for unordered list in navigation bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style for list items in navigation bar */
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Style for links in navigation bar */
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for link when hover in navigation bar */
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Style for header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for section */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style for article */
+article {
+  margin-top: 20px;
+}
+
+/* Style for aside */
+aside {
+  margin-top: 20px;
+}
+
+/* Style for h1 in header */
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Style for h2 in section */
+section h2 {
+  font-size: 20px;
+}
+
+/* Style for p in article */
+article p {
+  margin-top: 0;
+}
+
+/* Style for unordered list in aside */
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style for list items in aside */
+aside li {
+  margin-bottom: 10px;
+}
+
+/* Style for image button */
+.image-button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Style for image inside the image button */
+.image-button img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.image-button:hover img {
+  filter: grayscale(50%);
+}

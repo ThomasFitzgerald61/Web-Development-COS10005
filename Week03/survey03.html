@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web development" />
+    <meta name="keywords" content="HTML (Part 1 – Content - Form)" />
+    <meta name="author" content="Thomas Fitzgerald" />
+    <title>Web Development Survey</title>
+  </head>
+  <body>
+    <main>
+      <h1>Unit Delivery Survey</h1>
+      <p>Please Answer, the following questions</p>
+      <div>
+        <form
+          id="survey"
+          method="post"
+          action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php"
+        >
+          <!--Browser selection-->
+          <p>
+            Which browser do you know how to use? (Check all that applies)
+            <br />
+            <input type="checkbox" name="Browser1" id="chrome" value="chrome" />
+            <label for="chrome">Chrome</label>
+            <br />
+            <input
+              type="checkbox"
+              name="Browser2"
+              id="firefox"
+              value="firefox"
+            />
+            <label for="firefox">Firefox</label>
+            <br />
+            <input
+              type="checkbox"
+              name="Browser3"
+              id="internetExplorer"
+              value="interntExplorer"
+            />
+            <label for="internetExplorer">Internet Explorer</label>
+            <br />
+            <input type="checkbox" name="Browser4" id="safari" value="safari" />
+            <label for="safari">Safari</label>
+          </p>
+          <!--Text editor selection-->
+          <p>
+            Which text editor do you know how to use? (Check all that applies)
+            <br />
+            <input
+              type="checkbox"
+              name="TextEditor1"
+              id="komodo"
+              value="komodo"
+            />
+            <label for="komodo">Komodo</label>
+            <br />
+            <input
+              type="checkbox"
+              name="TextEditor2"
+              id="notepad++"
+              value="notepad++"
+            />
+            <label for="notepad++">Notepad++</label>
+            <br />
+            <input
+              type="checkbox"
+              name="TextEditor3"
+              id="sublimeText"
+              value="sublimeText"
+            />
+            <label for="sublimeText">Sublime Text</label>
+            <br />
+            <input
+              type="checkbox"
+              name="TextEditor4"
+              id="wrangler"
+              value="wrangler"
+            />
+            <label for="wrangler">Wrangler</label>
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </p>
+        </form>
+        <button type="submit" onclick="window.location.href='survey02.html'">
+          Previous
+        </button>
+        <button type="submit" onclick="window.location.href='survey04.html'">
+          Next
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

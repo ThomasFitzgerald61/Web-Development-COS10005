@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web development" />
+    <meta name="keywords" content="HTML (Part 1 – Content - Form)" />
+    <meta name="author" content="Thomas Fitzgerald" />
+    <title>Web Development Survey</title>
+  </head>
+  <body>
+    <main>
+      <h1>Unit Delivery Survey</h1>
+      <p>Please Answer, the following questions</p>
+      <div>
+        <form
+          id="survey"
+          method="post"
+          action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php"
+        >
+          <!--Browser selection-->
+          <p>
+            How do you rate the lecture materials?
+            <br />
+            <label>
+              <input type="radio" name="lectureRating" value="excellent" />
+              Excellent
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="lectureRating" value="good" />
+              Good
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="lectureRating" value="fair" />
+              Fair
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="lectureRating" value="poor" />
+              Poor
+            </label>
+          </p>
+          <!--Text editor selection-->
+          <p>
+            How do you rate the lab materials?
+            <br />
+            <label>
+              <input type="radio" name="labRating" value="excellent" />
+              Excellent
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="labRating" value="good" />
+              Good
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="labRating" value="fair" />
+              Fair
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="labRating" value="poor" />
+              Poor
+            </label>
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </p>
+        </form>
+        <button type="submit" onclick="window.location.href='survey03.html'">
+          Previous
+        </button>
+        <button type="submit" onclick="window.location.href='survey05.html'">
+          Next
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

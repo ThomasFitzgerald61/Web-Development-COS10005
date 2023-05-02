@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web development" />
+    <meta name="keywords" content="HTML (Part 1 – Content - Form)" />
+    <meta name="author" content="Thomas Fitzgerald" />
+    <title>Web Development Survey</title>
+  </head>
+  <body>
+    <main>
+      <h1>Unit Delivery Survey</h1>
+      <p>Please Enter, gender and degree program below</p>
+      <div>
+        <form
+          id="survey"
+          method="post"
+          action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php"
+        >
+          <p>
+            <label>
+              Full Name (optional)
+              <input type="text" name="name" size="20" />
+            </label>
+          </p>
+          <p>
+            Gender
+            <br />
+            <label>
+              Male
+              <input type="radio" name="gender" value="M" />
+            </label>
+            <label>
+              Female
+              <input type="radio" name="gender" value="F" />
+            </label>
+          </p>
+          <!--Degree Program selection-->
+          <p>
+            <label>Select your Degree</label>
+            <select name="Degree">
+              <option value="Unknown" selected="selected">Unknown</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Law">Law</option>
+              <option value="Education">Education</option>
+              <option value="Buisness">Buisness</option>
+            </select>
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </p>
+        </form>
+        <button type="submit" onclick="window.location.href='survey01.html'">
+          Previous
+        </button>
+        <button type="submit" onclick="window.location.href='survey03.html'">
+          Next
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
